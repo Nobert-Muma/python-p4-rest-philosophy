@@ -33,9 +33,11 @@
 ## Introduction
 
 We've done a lot with REST in this module, but there's still much more to learn-
-Roy Fielding wrote his Ph.D. dissertation on it, after all. You don't need a
-Ph.D. to understand REST, but some of the underlying ideas are a bit more
-complicated than you'll need to use in day-to-day programming.
+Roy Fielding wrote his [Ph.D. dissertation on it](
+https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf),
+after all. You don't need a Ph.D. to understand REST, but some of the underlying
+ideas are a bit more complicated than you'll need to use in day-to-day
+programming.
 
 That being said, if you're curious (or headed into a particularly intense
 interview), this lesson will provide you more context on the rationale behind
@@ -117,18 +119,20 @@ This is not always important functionality, so it is considered optional.
 
 ## Conclusion
 
-...
+REST provides a set of architectural constraints that make APIs easy to build
+and understand. REST isn't always the best approach to building an API-
+some ultra-secure resources should not be cached, for instance- but when
+appropriate, it provides your partners and customers with a predictable set of
+behaviors and encourages them to start using your product.
+
+Some of these constraints are a bit _academic_- they were proposed in a Ph.D.
+dissertation, after all! But do your best to adhere to these constraints when
+building RESTful APIs and trust your senior colleagues to help you out when you
+need it. It takes a while to get the hang of REST, but it's worth it!
 
 ***
 
 ## Resources
 
-- [Handling Application Errors - Pallets](https://flask.palletsprojects.com/en/2.2.x/errorhandling/)
-- [Client error responses - Mozilla][400]
-- [Server error responses - Mozilla][500]
-- [8. Errors and Exceptions - Python](https://docs.python.org/3.8/tutorial/errors.html)
-- [HTTP Exceptions - Pallets][http_exc]
-
-[400]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
-[500]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses
-[http_exc]: https://werkzeug.palletsprojects.com/en/2.2.x/exceptions/
+- [What RESTful Actually Means](https://codewords.recurse.com/issues/five/what-restful-actually-means)
+- [REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
