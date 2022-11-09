@@ -32,8 +32,9 @@
 ## Introduction
 
 We've done a lot with REST in this module, but there's still much more to learn-
-Roy Fielding wrote his [Ph.D. dissertation on it](
-https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf),
+Roy Fielding wrote his Ph.D. dissertation on it ([Architectural Styles and the
+Design of Network-based Software Architectures.pdf](
+https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)),
 after all. You don't need a Ph.D. to understand REST, but some of the underlying
 ideas are a bit more complicated than you'll need to use in day-to-day
 programming.
