@@ -1,4 +1,4 @@
-# Bonus: REST Philosophy
+# REST Philosophy
 
 ## Learning Goals
 
